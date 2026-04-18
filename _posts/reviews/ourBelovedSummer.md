@@ -3,12 +3,12 @@ title: "Our Beloved Summer"
 date: "2026-04-19"
 type: "Review"
 excerpt: "Drama coming-of-age slow menggambarkan realita kehidupan"
-thumbnail: "/images/ourBelovedSummer/ourBelovedSummer1.jpg"
+thumbnail: "/images/reviews/ourBelovedSummer/ourBelovedSummer1.jpg"
 ---
 
 Halo men, ini post pertama yang proper kayaknya soooo cut me some slack.
 
-Aku belum pernah nulis review apapun jadi yaa semoga bisa menyampaikannya dengan baik. Hal pertama yang mau aku 
+Aku belum pernah nulis review apapun jadi yaa semoga bisa menyampaikan nya dengan baik. Hal pertama yang mau aku 
 review adalah Kdrama yang sudah lama aku tonton tapi aku rewatch satu bulan yang lalu yaitu Our Beloved Summer. 
 kenapa? karena ini salah satu drama favoritku.
 
