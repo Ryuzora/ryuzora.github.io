@@ -1,6 +1,7 @@
 import ReactMarkdown from 'react-markdown';
-import Link from 'next/link';
+import Image from 'next/image';
 import { getAllPosts, getPostBySlug } from '@/lib/api';
+import PostBackButton from './post-back-button';
 
 interface PostPageProps {
   params: Promise<{ slug: string[] }>;
@@ -19,15 +20,9 @@ export default async function PostPage({ params }: PostPageProps) {
 
   return (
     <main className="min-h-screen bg-stone-50 px-6 py-16 sm:px-10 lg:px-20">
-      <div className="mx-auto max-w-3xl">
+      <div className="mx-auto max-w-4xl">
         <nav className="mb-12">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-sm font-medium text-stone-400 transition-colors hover:text-amber-700"
-          >
-            <span aria-hidden="true">←</span>
-            All posts
-          </Link>
+          <PostBackButton />
         </nav>
 
         <header className="mb-12 border-b border-stone-200 pb-10">
@@ -40,16 +35,36 @@ export default async function PostPage({ params }: PostPageProps) {
               })}
             </time>
           </p>
+          <p className="mb-4 inline-flex rounded-full bg-stone-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-stone-600">
+            {post.type}
+          </p>
           <h1 className="font-serif text-4xl font-bold leading-tight tracking-tight text-stone-900 sm:text-5xl">
             {post.title}
           </h1>
+          {post.excerpt && (
+            <p className="mt-5 text-base leading-relaxed text-stone-600 sm:text-lg">
+              {post.excerpt}
+            </p>
+          )}
         </header>
 
-        <article className="prose prose-stone lg:prose-xl prose-headings:font-serif prose-headings:font-bold prose-a:text-amber-700 prose-a:no-underline hover:prose-a:underline">
+        {post.thumbnail && (
+          <div className="mb-10 overflow-hidden rounded-3xl border border-stone-200 bg-stone-100">
+            <Image
+              src={post.thumbnail}
+              alt={post.title}
+              width={1600}
+              height={900}
+              className="h-auto w-full object-cover"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1024px"
+            />
+          </div>
+        )}
+
+        <article className="prose prose-stone lg:prose-xl max-w-none prose-headings:font-serif prose-headings:font-bold prose-a:text-amber-700 prose-a:no-underline hover:prose-a:underline prose-p:indent-8 prose-p:text-justify prose-li:text-justify prose-img:mx-auto">
           <ReactMarkdown>{post.content}</ReactMarkdown>
         </article>
       </div>
     </main>
   );
 }
-

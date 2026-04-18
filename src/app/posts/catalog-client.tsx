@@ -104,7 +104,7 @@ export default function CatalogClient({ posts }: { posts: Post[] }) {
 
   return (
     <>
-      <div className="mb-8 flex items-end justify-between gap-4">
+      <div className="mb-8">
         <div>
           <h1 className="font-serif text-4xl font-bold text-stone-900 sm:text-5xl">
             {pageTitle}
@@ -115,12 +115,6 @@ export default function CatalogClient({ posts }: { posts: Post[] }) {
             grid for faster loads as your archive grows.
           </p>
         </div>
-        <Link
-          href="/"
-          className="text-sm font-medium text-amber-800 transition-colors hover:text-amber-950"
-        >
-          Back to home
-        </Link>
       </div>
 
       {pagePosts.length > 0 ? (
