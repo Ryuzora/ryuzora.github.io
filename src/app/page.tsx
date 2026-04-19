@@ -6,7 +6,7 @@ export default function HomePage() {
   const posts = getAllPosts();
 
   return (
-      <main className="min-h-screen bg-stone-50">
+      <main className="min-h-screen bg-[var(--color-neutral)]">
         <Hero/>
         <Latest posts={posts}/>
       </main>

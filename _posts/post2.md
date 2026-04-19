@@ -1,6 +1,12 @@
 ---
 title: "The 200Hz Jump: Xiaomi G24i Review"
 date: "2026-04-18"
+type: "Review"
+category: "Tech"
+tags:
+  - "monitor"
+  - "gaming"
+  - "xiaomi"
 ---
 
 # Upgrading the Battlestation

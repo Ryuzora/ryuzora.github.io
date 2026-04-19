@@ -3,17 +3,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
+import type { PostSummary } from '@/lib/api';
 
 const POSTS_PER_PAGE = 9;
-
-interface Post {
-  slug: string;
-  title: string;
-  date: string;
-  type: string;
-  excerpt: string;
-  thumbnail: string;
-}
 
 function getPageFromSearchParam(value: string | null): number {
   const parsed = Number(value);
@@ -74,7 +66,12 @@ function formatPostDate(date: string): string {
   });
 }
 
-export default function CatalogClient({ posts }: { posts: Post[] }) {
+function formatCategoryTypeLabel(category: string, type: string): string {
+  const trimmedCategory = category.trim();
+  return trimmedCategory ? `${trimmedCategory} ${type}` : type;
+}
+
+export default function CatalogClient({ posts }: { posts: PostSummary[] }) {
   const searchParams = useSearchParams();
 
   const typeFilter = normalizePostType(searchParams.get('type') ?? '');
@@ -100,16 +97,16 @@ export default function CatalogClient({ posts }: { posts: Post[] }) {
 
   const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
   const pagePosts = sortedPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
-  const pageTitle = typeFilter ? `${formatTypeLabel(typeFilter)} Catalog` : 'Post Catalog';
+  const pageTitle = typeFilter ? `${formatTypeLabel(typeFilter)} Posts` : 'Latest Posts';
 
   return (
     <>
       <div className="mb-8">
         <div>
-          <h1 className="font-serif text-4xl font-bold text-stone-900 sm:text-5xl">
+          <h1 className="font-serif text-4xl font-bold text-[var(--color-secondary)] sm:text-5xl">
             {pageTitle}
           </h1>
-          <p className="mt-2 text-stone-600">
+          <p className="mt-2 text-[var(--color-text-muted)]">
             Browse {filteredPosts.length}{' '}
             {typeFilter ? formatTypeLabel(typeFilter).toLowerCase() : 'posts'} in a paginated
             grid for faster loads as your archive grows.
@@ -124,7 +121,7 @@ export default function CatalogClient({ posts }: { posts: Post[] }) {
               key={post.slug}
               href={`/posts/${post.slug}`}
               prefetch={false}
-              className="group relative flex min-h-[360px] flex-col justify-end overflow-hidden rounded-3xl bg-stone-950 p-7 transition-transform hover:scale-[1.01]"
+              className="group relative flex min-h-[360px] flex-col justify-end overflow-hidden rounded-3xl border border-[var(--color-border)] bg-[var(--color-tertiary)] p-7 transition-transform hover:scale-[1.01]"
             >
               {post.thumbnail && (
                 <Image
@@ -132,21 +129,22 @@ export default function CatalogClient({ posts }: { posts: Post[] }) {
                   alt={post.title}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                  className="absolute inset-0 object-cover brightness-90 transition-transform duration-700 ease-out group-hover:scale-105"
+                  className="absolute inset-0 object-cover brightness-75 transition-transform duration-700 ease-out group-hover:scale-105"
                 />
               )}
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/45 to-black/20" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/45 to-black/20" />
 
               <div className="relative z-10">
-                <div className="mb-3 flex items-center gap-3 text-sm text-stone-200/90">
+                <div className="mb-3 flex items-center gap-3 text-sm text-[#f6eae5]">
                   <time dateTime={post.date}>{formatPostDate(post.date)}</time>
-                  <span>{post.type || 'Opinion'}</span>
+                  <span aria-hidden="true">🞄</span>
+                  <span>{formatCategoryTypeLabel(post.category, post.type)}</span>
                 </div>
-                <h2 className="font-serif text-3xl font-bold leading-tight text-white transition-colors group-hover:text-stone-200">
+                <h2 className="font-serif text-3xl font-bold leading-tight text-white transition-colors group-hover:text-[#f7e7e2]">
                   {post.title}
                 </h2>
-                <p className="mt-3 text-sm leading-relaxed text-stone-200/85">
+                <p className="mt-3 text-sm leading-relaxed text-[#f6eae5]">
                   {post.excerpt || 'A brief reflection on recent learnings and experiences.'}
                 </p>
               </div>
@@ -154,7 +152,7 @@ export default function CatalogClient({ posts }: { posts: Post[] }) {
           ))}
         </div>
       ) : (
-        <div className="rounded-2xl border border-stone-200 bg-white p-8 text-center text-stone-600">
+        <div className="rounded-2xl border border-[var(--color-border)] bg-[var(--color-surface)] p-8 text-center text-[var(--color-text-muted)]">
           No posts found for this filter yet.
         </div>
       )}
@@ -165,14 +163,14 @@ export default function CatalogClient({ posts }: { posts: Post[] }) {
           aria-disabled={currentPage <= 1}
           className={`rounded-full border px-4 py-2 text-sm font-medium transition ${
             currentPage <= 1
-              ? 'pointer-events-none border-stone-200 text-stone-400'
-              : 'border-stone-300 text-stone-700 hover:border-stone-400 hover:text-stone-900'
+              ? 'pointer-events-none border-[var(--color-border)] text-[var(--color-text-muted)]'
+              : 'border-[var(--color-border)] text-[var(--color-secondary)] hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]'
           }`}
         >
           Previous
         </Link>
 
-        <p className="text-sm text-stone-600">
+        <p className="text-sm text-[var(--color-text-muted)]">
           Page {currentPage} of {totalPages}
         </p>
 
@@ -181,8 +179,8 @@ export default function CatalogClient({ posts }: { posts: Post[] }) {
           aria-disabled={currentPage >= totalPages}
           className={`rounded-full border px-4 py-2 text-sm font-medium transition ${
             currentPage >= totalPages
-              ? 'pointer-events-none border-stone-200 text-stone-400'
-              : 'border-stone-300 text-stone-700 hover:border-stone-400 hover:text-stone-900'
+              ? 'pointer-events-none border-[var(--color-border)] text-[var(--color-text-muted)]'
+              : 'border-[var(--color-border)] text-[var(--color-secondary)] hover:border-[var(--color-primary)] hover:text-[var(--color-primary)]'
           }`}
         >
           Next

@@ -4,11 +4,15 @@ import matter from 'gray-matter';
 
 const postsDirectory = path.join(process.cwd(), '_posts');
 
+export type PostType = 'Review' | 'Opinion' | 'Project';
+
 export interface PostSummary {
   slug: string;
   title: string;
   date: string;
-  type: string;
+  type: PostType;
+  category: string;
+  tags: string[];
   excerpt: string;
   thumbnail: string;
 }
@@ -25,6 +29,20 @@ function readDate(value: unknown): string {
   if (typeof value === 'string') return value;
   if (value instanceof Date) return value.toISOString();
   return '';
+}
+
+function readPostType(value: unknown, fallback: PostType = 'Opinion'): PostType {
+  if (typeof value !== 'string') return fallback;
+  const normalized = value.trim().toLowerCase();
+  if (normalized === 'review') return 'Review';
+  if (normalized === 'opinion') return 'Opinion';
+  if (normalized === 'project') return 'Project';
+  return fallback;
+}
+
+function readStringArray(value: unknown): string[] {
+  if (!Array.isArray(value)) return [];
+  return value.filter((item): item is string => typeof item === 'string');
 }
 
 function getMarkdownFilesRecursively(directory: string): string[] {
@@ -55,11 +73,15 @@ function readPostFile(slug: string) {
 }
 
 function toPostSummary(slug: string, data: Record<string, unknown>): PostSummary {
+  const type = readPostType(data.type, 'Opinion');
+
   return {
     slug,
     title: readString(data.title, 'Untitled post'),
     date: readDate(data.date),
-    type: readString(data.type, 'Opinion'),
+    type,
+    category: readString(data.category),
+    tags: readStringArray(data.tags),
     excerpt: readString(data.excerpt),
     thumbnail: readString(data.thumbnail),
   };

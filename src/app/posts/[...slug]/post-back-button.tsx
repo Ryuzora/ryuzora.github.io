@@ -18,7 +18,7 @@ export default function PostBackButton() {
     <button
       type="button"
       onClick={handleBack}
-      className="inline-flex items-center gap-2 text-sm font-medium text-stone-400 transition-colors hover:text-amber-700"
+      className="inline-flex items-center gap-2 text-sm font-medium text-[var(--color-text-muted)] transition-colors hover:text-[var(--color-primary)]"
     >
       <span aria-hidden="true">←</span>
       Back

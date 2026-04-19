@@ -3,3 +3,25 @@
 
 @theme {
 }
+
+:root {
+  --color-primary: #9b5f63;
+  --color-secondary: #ab7171;
+  --color-tertiary: #8f6c89;
+  --color-neutral: #f3eff1;
+  --color-surface: #ebe5e8;
+  --color-border: #ddd2d6;
+  --color-text: #433d3e;
+  --color-text-muted: #7f7476;
+}
+
+html,
+body {
+  background-color: var(--color-neutral);
+  color: var(--color-text);
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--color-primary) 30%, white);
+  color: var(--color-text);
+}
