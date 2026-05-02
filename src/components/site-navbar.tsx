@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation';
 
 type NavLink = {
   key: 'home' | 'latest' | 'reviews' | 'opinions' | 'projects' | 'about';
@@ -16,11 +16,12 @@ const navLinks: NavLink[] = [
   { key: 'reviews', name: 'Reviews', href: '/posts?type=review' },
   { key: 'opinions', name: 'Opinions', href: '/posts?type=opinion' },
   { key: 'projects', name: 'Projects', href: '/posts?type=project' },
-  { key: 'about', name: 'About', href: '/#about' },
+  { key: 'about', name: 'About', href: '/about' },
 ];
 
 export default function SiteNavbar() {
   const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isNavVisible, setIsNavVisible] = useState(true);
   const lastScrollYRef = useRef(0);
@@ -30,10 +31,8 @@ export default function SiteNavbar() {
     return value.trim().toLowerCase().replace(/s$/, '');
   };
 
-  const locationSearch = typeof window === 'undefined' ? '' : window.location.search;
-  const currentParams = new URLSearchParams(locationSearch);
-  const activeType = normalizeParam(currentParams.get('type'));
-  const activeSort = normalizeParam(currentParams.get('sort'));
+  const activeType = normalizeParam(searchParams.get('type'));
+  const activeSort = normalizeParam(searchParams.get('sort'));
 
   let activePostsKey: NavLink['key'] | null = null;
   if (pathname === '/posts') {
@@ -107,6 +106,7 @@ export default function SiteNavbar() {
             {navLinks.map((link) => {
               const active =
                 (link.key === 'home' && pathname === '/') ||
+                (link.key === 'about' && pathname === '/about') ||
                 (activePostsKey !== null && link.key === activePostsKey);
               return (
                 <Link

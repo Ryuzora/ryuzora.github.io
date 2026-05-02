@@ -17,6 +17,7 @@ export default async function PostPage({ params }: PostPageProps) {
   const resolvedParams = await params;
   const slug = resolvedParams.slug.join('/');
   const post = getPostBySlug(slug);
+  const categoryTypeLabel = post.category ? `${post.category} ${post.type}` : post.type;
 
   return (
     <main className="min-h-screen bg-[var(--color-neutral)] px-6 py-16 sm:px-10 lg:px-20">
@@ -34,24 +35,16 @@ export default async function PostPage({ params }: PostPageProps) {
               {post.excerpt}
             </p>
           )}
-          <div className="mt-5 flex items-center gap-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-text-muted)]">
-              <time dateTime={post.date}>
-                {new Date(post.date).toLocaleDateString('en-US', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric',
-                })}
-              </time>
-            </p>
-            <p className="inline-flex rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-[var(--color-secondary)]">
-              {post.type}
-            </p>
-            {post.category && (
-              <p className="inline-flex rounded-full border border-[var(--color-border)] bg-[var(--color-surface)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-[var(--color-text-muted)]">
-                {post.category}
-              </p>
-            )}
+          <div className="mt-5 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.12em] text-(--color-text-muted)">
+            <time dateTime={post.date}>
+              {new Date(post.date).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </time>
+            <span aria-hidden="true" className="inline-block h-1.5 w-1.5 rounded-full bg-(--color-text-muted)" />
+            <span className="text-[var(--color-text-muted)]">{categoryTypeLabel}</span>
           </div>
         </header>
 

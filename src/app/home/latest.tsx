@@ -86,19 +86,6 @@ export default function FeaturedLayout({ posts }: { posts: PostSummary[] }) {
               ))}
             </div>
         )}
-
-        {/* 3. The Quote Block (Pinkish Theme) */}
-        <div className="mt-2 rounded-3xl border border-[var(--color-border)] bg-[var(--color-surface)] p-10 text-center sm:p-16">
-          <blockquote className="mx-auto max-w-3xl">
-            <p className="font-serif text-2xl leading-relaxed text-[var(--color-text)] sm:text-3xl">
-              &ldquo;Design is not just what it looks like and feels like. Design is how it works... but a little tactile warmth never hurt anyone.&rdquo;
-            </p>
-            <footer className="mt-6 text-sm font-semibold text-[var(--color-tertiary)]">
-              — Steve Jobs, Modified
-            </footer>
-          </blockquote>
-        </div>
-
       </div>
   );
 }
