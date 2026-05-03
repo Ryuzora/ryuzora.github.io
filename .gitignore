@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+./_posts/.obsidian/
+./_posts/.obsidian/plugins/
+./_posts/.obsidian/workspace.json
+./_posts/.obsidian/workspace-mobile.json
+./_posts/.trash/
+./_posts/.DS_Store
