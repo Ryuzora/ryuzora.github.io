@@ -1,3 +1,7 @@
 [
-  "obsidian-git"
+  "obsidian-git",
+  "consistent-attachments-and-links",
+  "backlink-cache",
+  "obsidian-custom-attachment-location",
+  "templater-obsidian"
 ]

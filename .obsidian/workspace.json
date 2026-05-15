@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "24423180237ae883",
+        "id": "b685ba1531ca9f3a",
         "type": "tabs",
         "children": [
           {
-            "id": "fad55419d7ad23a7",
+            "id": "9e0084162d0e7f49",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_posts/reviews/crushology101.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "crushology101"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/reviews/crushology101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for crushology101"
             }
           },
           {
@@ -167,15 +172,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "fad55419d7ad23a7",
-  "lastOpenFiles": []
+  "active": "9e0084162d0e7f49",
+  "lastOpenFiles": [
+    "public/images/reviews/crushology101/hero.jpeg",
+    "_posts/reviews/crushology101.md",
+    "public/images/reviews/crushology101/rohjeongeui.jpg",
+    "public/images/reviews/crushology101",
+    "_templates/Template.md",
+    "_posts/reviews/ourBelovedSummer.md",
+    "_posts/reviews/Crushology 101.md",
+    "_posts/reviews/tes.md",
+    "2026-05-16.md",
+    "_posts/rankings/Top5VillainNaruto.md",
+    "Crushology 101.md",
+    "Cru.md",
+    "_templates",
+    "_posts/opinions/bukanSakuraYangBeban.md",
+    "public/images/opinions/bukanSakuraYangBeban/rohjeongeui.jpg",
+    "public/images/opinions/bukanSakuraYangBeban",
+    "_posts/reviews/whenLifeGivesYouTangerine.md",
+    "public/images/${notename}/rohjeongeui.jpg",
+    "public/images/${notename}"
+  ]
 }

@@ -15,3 +15,4 @@ category: |-
 excerpt: "Review drama When Life Gives You Tangerines: Perjalanan slow-burn dan realistis tentang ambisi, kemiskinan, dan realita hidup di Pulau Jeju era 1950-an."
 thumbnail:
 ---
+![](public/images/${notename}/rohjeongeui.jpg)

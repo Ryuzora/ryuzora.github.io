@@ -8,7 +8,7 @@ tags:
   - character
   - rant
 excerpt: Karakter cewe yang menurutku paling ga guna di serial Naruto
-thumbnail: /images/opinions/bukanSakuraYangBeban/Sakura-naruto-454675425.jpg
+thumbnail: /images/bukanSakuraYangBeban/Sakura-naruto-454675425.jpg
 ---
 
 Sakura Haruno, karakter ini sangat terkenal di serial Naruto. Tapi Sakura tidak terkenal dengan hal yang baik. 
