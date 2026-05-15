@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/opinions/bukanSakuraYangBeban.md",
+                "file": "_templates/Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bukanSakuraYangBeban"
+              "title": "Template"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/opinions/bukanSakuraYangBeban.md",
+                "file": "_templates/Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for bukanSakuraYangBeban"
+              "title": "Backlinks for Template"
             }
           },
           {
@@ -186,11 +186,15 @@
   "active": "9e0084162d0e7f49",
   "lastOpenFiles": [
     "_posts/reviews/crushology101.md",
+    "_posts/reviews/whenLifeGivesYouTangerine.md",
+    "_posts/reviews/ourBelovedSummer.md",
+    "_posts/opinions/bukanSakuraYangBeban.md",
+    "_posts/opinions/MaleniavsConsortRadahnComparison.md",
+    "_templates/Template.md",
+    "public/images/image1.jpeg",
     "public/images/reviews/crushology101/hero.jpeg",
     "public/images/reviews/crushology101/rohjeongeui.jpg",
     "public/images/reviews/crushology101",
-    "_templates/Template.md",
-    "_posts/reviews/ourBelovedSummer.md",
     "_posts/reviews/Crushology 101.md",
     "_posts/reviews/tes.md",
     "2026-05-16.md",
@@ -198,10 +202,8 @@
     "Crushology 101.md",
     "Cru.md",
     "_templates",
-    "_posts/opinions/bukanSakuraYangBeban.md",
     "public/images/opinions/bukanSakuraYangBeban/rohjeongeui.jpg",
     "public/images/opinions/bukanSakuraYangBeban",
-    "_posts/reviews/whenLifeGivesYouTangerine.md",
     "public/images/${notename}/rohjeongeui.jpg",
     "public/images/${notename}"
   ]
