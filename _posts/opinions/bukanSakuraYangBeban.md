@@ -1,14 +1,14 @@
 ---
-title: "Bukan Sakura yang beban"
+title: Bukan Sakura yang beban
 date: 2026-05-03
-type: "Opinion"
-category: "Anime"
+type: Opinion
+category: Anime
 tags:
-  - "naruto"
-  - "character"
-  - "rant"
-excerpt: "Karakter cewe yang menurutku paling ga guna di serial Naruto"
-thumbnail: "/images/opinions/bukanSakuraYangBeban/Sakura-naruto-454675425.jpg"
+  - naruto
+  - character
+  - rant
+excerpt: Karakter cewe yang menurutku paling ga guna di serial Naruto
+thumbnail: /images/opinions/bukanSakuraYangBeban/Sakura-naruto-454675425.jpg
 ---
 
 Sakura Haruno, karakter ini sangat terkenal di serial Naruto. Tapi Sakura tidak terkenal dengan hal yang baik. 

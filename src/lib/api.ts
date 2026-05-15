@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 
 const postsDirectory = path.join(process.cwd(), '_posts');
 
-export type PostType = 'Review' | 'Opinion' | 'Project';
+export type PostType = 'Review' | 'Opinion' | 'Ranking';
 
 export interface PostSummary {
   slug: string;
@@ -36,7 +36,7 @@ function readPostType(value: unknown, fallback: PostType = 'Opinion'): PostType 
   const normalized = value.trim().toLowerCase();
   if (normalized === 'review') return 'Review';
   if (normalized === 'opinion') return 'Opinion';
-  if (normalized === 'project') return 'Project';
+  if (normalized === 'ranking') return 'Ranking';
   return fallback;
 }
 

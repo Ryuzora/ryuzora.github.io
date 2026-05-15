@@ -1,12 +1,13 @@
 ---
 title: "Malenia vs Consort Radahn: siapa bos yang lebih baik"
 date: 2026-04-20
-excerpt: "tes"
-type: "Opinion"
-category: "Game"
+excerpt: tes
+type: Opinion
+category: Game
 tags:
-    - "Elden Ring"
-    - "From Software"
+  - Elden-Ring
+  - From-Software
+  - Soulsborne
 thumbnail: ""
 ---
 

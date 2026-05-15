@@ -1,25 +1,20 @@
 {
   "main": {
-    "id": "917cdcec68a38e79",
+    "id": "79dc1c00e1f91532",
     "type": "split",
     "children": [
       {
-        "id": "c93a2c2e9f5206af",
+        "id": "24423180237ae883",
         "type": "tabs",
         "children": [
           {
-            "id": "c5499b6ac988c6a9",
+            "id": "fad55419d7ad23a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "opinions/bukanSakuraYangBeban.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "bukanSakuraYangBeban"
+              "title": "New tab"
             }
           }
         ]
@@ -28,28 +23,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "48fa994b9e3f6bf1",
+    "id": "72aa944f9b2e08c8",
     "type": "split",
     "children": [
       {
-        "id": "55d3142e46b06eeb",
+        "id": "860bfcc19fed829c",
         "type": "tabs",
         "children": [
           {
-            "id": "cbc8bc813994e9e1",
+            "id": "bdc51b7e7ba9b473",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "90800c13a5bb65a9",
+            "id": "d5cecfac60b1eb2e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -66,7 +61,7 @@
             }
           },
           {
-            "id": "309ca80a8d007de5",
+            "id": "f680e2e801e71bbf",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "79b5b06d571e6bcb",
+    "id": "47eb8ab6a84cd254",
     "type": "split",
     "children": [
       {
-        "id": "6751da9d88d91b9d",
+        "id": "dc0a3b27fef74905",
         "type": "tabs",
         "children": [
           {
-            "id": "5ab209518b6ab2f1",
+            "id": "23bc01adea1f9ede",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -108,7 +103,7 @@
             }
           },
           {
-            "id": "01bcc7e514d50022",
+            "id": "0da315d119284682",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -121,7 +116,7 @@
             }
           },
           {
-            "id": "9081ea1fc5e9c8c7",
+            "id": "6d6d6ef52a90c5e7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,7 +131,7 @@
             }
           },
           {
-            "id": "4a6587e86daa8ba4",
+            "id": "db1707dd8b3474bf",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -150,7 +145,7 @@
             }
           },
           {
-            "id": "59bfbd6098876b7b",
+            "id": "7c229ea84c821c3d",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -178,23 +173,9 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "cbc8bc813994e9e1",
-  "lastOpenFiles": [
-    "rankings/Top5VillainNaruto.md",
-    "posts/opinions/bukanSakuraYangBeban.md",
-    "posts/opinions",
-    "posts",
-    "opinions/MaleniavsConsortRadahnComparison.md",
-    "reviews/whenLifeGivesYouTangerine.md",
-    "reviews/ourBelovedSummer.md",
-    "post3.md",
-    "post2.md",
-    "hello.md",
-    "opinions/bukanSakuraYangBeban.md",
-    "opinions/Untitled.md"
-  ]
+  "active": "fad55419d7ad23a7",
+  "lastOpenFiles": []
 }

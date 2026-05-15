@@ -1,7 +1,6 @@
 import ReactMarkdown from 'react-markdown';
 import Image from 'next/image';
 import { getAllPosts, getPostBySlug } from '@/lib/api';
-import PostBackButton from './post-back-button';
 
 interface PostPageProps {
   params: Promise<{ slug: string[] }>;
@@ -23,7 +22,6 @@ export default async function PostPage({ params }: PostPageProps) {
     <main className="min-h-screen bg-[var(--color-neutral)] px-6 py-16 sm:px-10 lg:px-20">
       <div className="mx-auto max-w-3xl">
         <nav className="mb-12">
-          <PostBackButton />
         </nav>
 
         <header className="mb-12 border-b border-[var(--color-border)] pb-10">
@@ -77,10 +75,6 @@ export default async function PostPage({ params }: PostPageProps) {
             ))}
           </div>
         )}
-
-        <div className="mt-12 border-t border-[var(--color-border)] pt-8">
-          <PostBackButton />
-        </div>
       </div>
     </main>
   );

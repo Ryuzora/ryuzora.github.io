@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 
 type NavLink = {
-  key: 'home' | 'latest' | 'reviews' | 'opinions' | 'projects' | 'about';
+  key: 'home' | 'latest' | 'reviews' | 'opinions' | 'rankings' | 'about';
   name: string;
   href: string;
 };
@@ -15,7 +15,7 @@ const navLinks: NavLink[] = [
   { key: 'latest', name: 'Latest', href: '/posts?sort=latest' },
   { key: 'reviews', name: 'Reviews', href: '/posts?type=review' },
   { key: 'opinions', name: 'Opinions', href: '/posts?type=opinion' },
-  { key: 'projects', name: 'Projects', href: '/posts?type=project' },
+  { key: 'rankings', name: 'Rankings', href: '/posts?type=ranking' },
   { key: 'about', name: 'About', href: '/about' },
 ];
 
@@ -38,7 +38,7 @@ export default function SiteNavbar() {
   if (pathname === '/posts') {
     if (activeType === 'review') activePostsKey = 'reviews';
     else if (activeType === 'opinion') activePostsKey = 'opinions';
-    else if (activeType === 'project') activePostsKey = 'projects';
+    else if (activeType === 'ranking') activePostsKey = 'rankings';
     else if (activeSort === 'latest' || !activeType) activePostsKey = 'latest';
   }
 

@@ -1,7 +1,7 @@
 ---
 title: "Architecting WatchLog: Next.js Meets Laravel"
 date: "2026-04-19"
-type: "Project"
+type: "Ranking"
 category: "Software"
 tags:
   - "nextjs"

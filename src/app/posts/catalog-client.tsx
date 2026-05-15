@@ -32,7 +32,7 @@ function getPostTimestamp(date: string): number {
 function formatTypeLabel(type: string): string {
   if (type === 'review') return 'Reviews';
   if (type === 'opinion') return 'Opinions';
-  if (type === 'project') return 'Projects';
+  if (type === 'ranking') return 'Rankings';
   return 'Posts';
 }
 
