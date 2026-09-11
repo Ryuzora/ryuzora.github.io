@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -104,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for crushology101"
+              "title": "Backlinks"
             }
           },
           {
@@ -172,7 +174,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -180,19 +181,27 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false
     }
   },
   "active": "9e0084162d0e7f49",
   "lastOpenFiles": [
-    "_posts/reviews/ourBelovedSummer.md",
-    "_posts/rankings/Top5VillainNaruto.md",
-    "_templates/Template.md",
     "_posts/reviews/crushology101.md",
+    "_posts/opinions/MaleniavsConsortRadahnComparison.md",
+    "_posts/post2.md",
+    "_posts/hello.md",
+    "_posts/post3.md",
+    "_posts/reviews/doona!.md",
+    "public/images/reviews/doona!/hero.jpg",
+    "public/images/reviews/doona!/4BGE6bqEi4pNu4RJAQWcuS.jpeg",
+    "public/images/reviews/doona!",
+    "_posts/rankings/Top5VillainNaruto.md",
+    "_posts/reviews/ourBelovedSummer.md",
+    "_templates/Template.md",
     "_posts/opinions/bukanSakuraYangBeban.md",
     "public/images/reviews/crushology101/hero.jpg",
     "public/images/reviews/crushology101/hero.jpeg",
-    "_posts/opinions/MaleniavsConsortRadahnComparison.md",
     "_posts/reviews/whenLifeGivesYouTangerine.md",
     "public/images/image1.jpeg",
     "public/images/reviews/crushology101/rohjeongeui.jpg",
