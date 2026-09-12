@@ -4,14 +4,12 @@ tags:
   - naruto
   - villain
   - top5
-date: 2026-09-11
+date: 2026-09-13
 type: Ranking
 category: Anime
 excerpt: Ranking top 5 villain terbaik di serial naruto menurut Ryuzora Uchiha
-thumbnail:
+thumbnail: /images/rankings/Top5VillainNaruto/itachi-uchiha-sharingan-eyes-in-naruto-1.jpg
 ---
-Di series Naruto, itu ada banyak villain kan. Tapi ada beberapa yang menurutku lebih superior dibandingkan yang lainnya. Ini tidak semata-mata hanya karena power nya tapi berdasarkan beberapa faktor yang nanti aku tulis aja lah di bawah, jadi langsung aja ke yang nomor 5 dulu
-
 ## 5. Obito Uchiha
 Yak, villain nomor 5 adalah obito. Memang kalo secara power, obito merupakan salah satu villain terkuat di naruto. tetapi alasan aku menaruh obito di posisi ke lima adalah karena backstory yang terlalu unreasonable dan bisa dibilang sedikit bodoh. alasan obito menjadi jahat adalah karena saat ia melihat rin mati di tangan kakashi. Seingatku obito pernah bilang ke kakashi kalau ia tau bahwa kakashi tidak secara sengaja membunuh rin, tapi rin lah yang sengaja mengorbankan diri ke raikiri nya kakashi. tapi, obito tetap tidak bisa memaafkan kakashi karena rin harus mati dan bahkan malah tantrum sendiri. sesuai rencana madara yey.
 
