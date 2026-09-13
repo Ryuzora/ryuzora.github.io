@@ -17,7 +17,7 @@ Sebelum aku nonton _Doona!_, aku sama sekali tidak pernah dengar tentang drama i
 
 Fun fact, sebelum nonton _Doona!_, aku sebenarnya biasa aja sama Suzy. Tapi setelah nonton drama ini...
 
-![](/images/reviews/doona!/suzy.jpg)
+![](images/reviews/doona!/suzy.jpg)
 
 **DAMNNNNNNNNN.**
 
@@ -37,7 +37,7 @@ Tapi ternyata Suzy bukan satu-satunya orang di drama ini yang membuatku berpikir
 
 Di _Doona!_, aku pertama kali tahu tentang Ha-young. Dan yep, reaksi pertamaku juga kurang lebih sama.
 
-![](/images/reviews/doona!/hayoung.jpg)
+![](images/reviews/doona!/hayoung.jpg)
 
 **“Siapa ni orang, kok cantik bener?”**
 
