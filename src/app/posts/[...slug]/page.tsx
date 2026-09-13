@@ -64,18 +64,25 @@ export default async function PostPage({ params }: PostPageProps) {
             components={{
               img: ({ node, ...props }: any) => {
                 const src = String(props.src || '');
+
                 const fixedSrc = src.includes('public/')
                   ? '/' + src.split('public/')[1]
                   : src;
 
                 return (
-                  <img
-                    {...props}
-                    src={fixedSrc}
-                    alt={props.alt || ''}
-                    loading="lazy"
-                    className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)]"
-                  />
+                  <div className="my-6 flex flex-col rounded-xl border-2 border-red-500 p-4 bg-black">
+                    <div className="mb-4 text-xs font-mono text-white break-all">
+                      <p><strong>Original Markdown Link:</strong> {src}</p>
+                      <p><strong>Next.js Is Trying to Load:</strong> {fixedSrc}</p>
+                    </div>
+                    <img
+                      {...props}
+                      src={fixedSrc}
+                      alt={props.alt || ''}
+                      loading="lazy"
+                      className="rounded-xl border border-white"
+                    />
+                  </div>
                 );
               }
             }}
