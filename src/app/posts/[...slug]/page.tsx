@@ -33,7 +33,7 @@ export default async function PostPage({ params }: PostPageProps) {
               {post.excerpt}
             </p>
           )}
-          <div className="mt-5 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.12em] text-(--color-text-muted)">
+          <div className="mt-5 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.12em] text-[var(--color-text-muted)]">
             <time dateTime={post.date}>
               {new Date(post.date).toLocaleDateString('en-US', {
                 year: 'numeric',
@@ -41,7 +41,7 @@ export default async function PostPage({ params }: PostPageProps) {
                 day: 'numeric',
               })}
             </time>
-            <span aria-hidden="true" className="inline-block h-1.5 w-1.5 rounded-full bg-(--color-text-muted)" />
+            <span aria-hidden="true" className="inline-block h-1.5 w-1.5 rounded-full bg-[var(--color-text-muted)]" />
             <span className="text-[var(--color-text-muted)]">{categoryTypeLabel}</span>
           </div>
         </header>
@@ -60,7 +60,28 @@ export default async function PostPage({ params }: PostPageProps) {
         )}
 
         <article className="prose prose-stone max-w-3xl prose-headings:font-serif prose-headings:font-bold prose-a:text-[var(--color-primary)] prose-a:no-underline hover:prose-a:underline prose-li:text-justify prose-img:mx-auto lg:prose-xl">
-          <ReactMarkdown>{post.content}</ReactMarkdown>
+          <ReactMarkdown
+            components={{
+              img: ({ node, ...props }: any) => {
+                const src = String(props.src || '');
+                const fixedSrc = src.startsWith('public/')
+                  ? src.replace(/^public\//, '/')
+                  : src;
+                  
+                return (
+                  <img
+                    {...props}
+                    src={fixedSrc}
+                    alt={props.alt || ''}
+                    loading="lazy"
+                    className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)]" 
+                  />
+                );
+              }
+            }}
+          >
+            {post.content}
+          </ReactMarkdown>
         </article>
 
         {post.tags.length > 0 && (
