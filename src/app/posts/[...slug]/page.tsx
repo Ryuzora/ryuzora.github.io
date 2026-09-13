@@ -63,26 +63,20 @@ export default async function PostPage({ params }: PostPageProps) {
           <ReactMarkdown
             components={{
               img: ({ node, ...props }: any) => {
-                const src = String(props.src || '');
-
-                const fixedSrc = src.includes('public/')
-                  ? '/' + src.split('public/')[1]
-                  : src;
+                let src = String(props.src || '');
+                if (src.includes('public/')) {
+                  src = src.split('public/')[1];
+                }
+                const fixedSrc = src.startsWith('/') ? src : '/' + src;
 
                 return (
-                  <div className="my-6 flex flex-col rounded-xl border-2 border-red-500 p-4 bg-black">
-                    <div className="mb-4 text-xs font-mono text-white break-all">
-                      <p><strong>Original Markdown Link:</strong> {src}</p>
-                      <p><strong>Next.js Is Trying to Load:</strong> {fixedSrc}</p>
-                    </div>
-                    <img
-                      {...props}
-                      src={fixedSrc}
-                      alt={props.alt || ''}
-                      loading="lazy"
-                      className="rounded-xl border border-white"
-                    />
-                  </div>
+                  <img
+                    {...props}
+                    src={fixedSrc}
+                    alt={props.alt || ''}
+                    loading="lazy"
+                    className="my-8 h-auto w-full rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] object-cover"
+                  />
                 );
               }
             }}
