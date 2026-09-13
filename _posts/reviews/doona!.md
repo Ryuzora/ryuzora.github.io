@@ -17,7 +17,11 @@ Sebelum aku nonton _Doona!_, aku sama sekali tidak pernah dengar tentang drama i
 
 Fun fact, sebelum nonton _Doona!_, aku sebenarnya biasa aja sama Suzy. Tapi setelah nonton drama ini...
 
+![](public/images/reviews/doona!/suzy.jpg)
+
 **DAMNNNNNNNNN.**
+
+Liat aja visualnya di sini co.
 
 Suzy langsung jadi salah satu aktris paling cantik menurutku. Ni orang cantiknya ga ngotak co, apa-apaan visualnya. 😭
 
@@ -32,6 +36,8 @@ Layak emang dijuluki **Nation's First Love.** 😭
 Tapi ternyata Suzy bukan satu-satunya orang di drama ini yang membuatku berpikir, _“siapa ni orang, kok cantik bener?”_
 
 Di _Doona!_, aku pertama kali tahu tentang Ha-young. Dan yep, reaksi pertamaku juga kurang lebih sama.
+
+![](public/images/reviews/doona!/hayoung.jpg)
 
 **“Siapa ni orang, kok cantik bener?”**
 
