@@ -64,17 +64,17 @@ export default async function PostPage({ params }: PostPageProps) {
             components={{
               img: ({ node, ...props }: any) => {
                 const src = String(props.src || '');
-                const fixedSrc = src.startsWith('public/')
-                  ? src.replace(/^public\//, '/')
+                const fixedSrc = src.includes('public/')
+                  ? '/' + src.split('public/')[1]
                   : src;
-                  
+
                 return (
                   <img
                     {...props}
                     src={fixedSrc}
                     alt={props.alt || ''}
                     loading="lazy"
-                    className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)]" 
+                    className="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)]"
                   />
                 );
               }
