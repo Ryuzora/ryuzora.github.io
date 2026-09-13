@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/rankings/Top5VillainNaruto.md",
+                "file": "_posts/reviews/ourBelovedSummer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Top5VillainNaruto"
+              "title": "ourBelovedSummer"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/rankings/Top5VillainNaruto.md",
+                "file": "_posts/reviews/ourBelovedSummer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,11 +187,14 @@
   },
   "active": "9e0084162d0e7f49",
   "lastOpenFiles": [
-    "_posts/reviews/crushology101.md",
-    "_posts/reviews/ourBelovedSummer.md",
-    "_posts/reviews/doona!.md",
-    "_posts/rankings/Top5VillainNaruto.md",
     "_posts/reviews/whenLifeGivesYouTangerine.md",
+    "_posts/reviews/ourBelovedSummer.md",
+    "public/images/reviews/whenLifeGivesYouTangerine/hero.jpg.jpg",
+    "_templates/Template.md",
+    "public/images/reviews/whenLifeGivesYouTangerine",
+    "_posts/rankings/Top5VillainNaruto.md",
+    "_posts/reviews/crushology101.md",
+    "_posts/reviews/doona!.md",
     "_posts/opinions/bukanSakuraYangBeban.md",
     "public/images/rankings/Top5VillainNaruto/itachi-uchiha-sharingan-eyes-in-naruto-1.jpg",
     "public/images/reviews/crushology101/hero.jpg",
@@ -204,7 +207,6 @@
     "public/images/reviews/doona!/hero.jpg",
     "public/images/reviews/doona!/4BGE6bqEi4pNu4RJAQWcuS.jpeg",
     "public/images/reviews/doona!",
-    "_templates/Template.md",
     "public/images/reviews/crushology101/hero.jpeg",
     "public/images/image1.jpeg",
     "public/images/reviews/crushology101/rohjeongeui.jpg",
@@ -217,7 +219,6 @@
     "_templates",
     "public/images/opinions/bukanSakuraYangBeban/rohjeongeui.jpg",
     "public/images/opinions/bukanSakuraYangBeban",
-    "public/images/${notename}/rohjeongeui.jpg",
     "public/images/${notename}"
   ]
 }

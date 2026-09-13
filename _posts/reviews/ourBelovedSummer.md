@@ -1,14 +1,16 @@
 ---
-title: "Our Beloved Summer"
-date: "2026-04-19"
-type: "Review"
-category: "K-Drama"
+title: Our Beloved Summer
+date: 2026-04-19
+type: Review
+category: K-Drama
 tags:
-  - "kdrama"
-  - "slice-of-life"
-  - "romance"
-excerpt: "Drama coming-of-age slow menggambarkan realita kehidupan"
-thumbnail: "/images/reviews/ourBelovedSummer/ourBelovedSummer1.jpg"
+  - kdrama
+  - slice-of-life
+  - romance
+  - kim-da-mi
+  - choi-woo-sik
+excerpt: Drama coming-of-age slow menggambarkan realita kehidupan
+thumbnail: /images/reviews/ourBelovedSummer/ourBelovedSummer1.jpg
 ---
 
 Halo men, ini post pertama yang proper kayaknya soooo cut me some slack.
