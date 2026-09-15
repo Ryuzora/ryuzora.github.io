@@ -15,14 +15,14 @@ Halo all, malam malam sebelum tidur aku tiba tiba mau nulis sesuatu aja sebagai 
 Tapi santai, ini ranking paling OK, W opinion, W ranking, no debat. Jadi langsung saja kita masuk ke list nya
 
 ## Honorable Mentions
-**LE SSERAFIM**
+###### LE SSERAFIM
 Jujur, lagu le sserafim nyampe. pilihan berat, tapi yang atas atas lagunya lebih ngangguk. Lagu lagu kaya crazy, hot, different dan lagu lagu lainnya epruv tapi karena beberapa lagu terakhir lumayan menurun (menurutku).
 
 jadi sorry ya le sserafim. you still got a spot on this list
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4gxEY3Mh5FZZDAJAKPNrCS?utm_source=generator&si=5883fbeca44c4f6d" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-**SNSD**
+###### SNSD
 Grup gen 2 tapi lagunya sampai sekarang pun tetap masukkk dan ga monoton.
 
 mau konsep cute kaya gee? bolehhhh..... mau yang lebih kaya wanita dewasa vibes nya? kasih lion heart sama genie. atau mau yang tipikal ada kencang kencangnya? langsung aja the boys

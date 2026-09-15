@@ -1,5 +1,6 @@
 import ReactMarkdown from 'react-markdown';
 import Image from 'next/image';
+import rehypeRaw from 'rehype-raw';
 import { getAllPosts, getPostBySlug } from '@/lib/api';
 
 interface PostPageProps {
@@ -61,6 +62,7 @@ export default async function PostPage({ params }: PostPageProps) {
 
         <article className="prose prose-stone max-w-3xl prose-headings:font-serif prose-headings:font-bold prose-a:text-[var(--color-primary)] prose-a:no-underline hover:prose-a:underline prose-li:text-justify prose-img:mx-auto lg:prose-xl">
           <ReactMarkdown
+            rehypePlugins={[rehypeRaw]}
             components={{
               img: ({ node, ...props }: any) => {
                 let src = String(props.src || '');
