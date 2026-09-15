@@ -50,7 +50,7 @@ karena mainnya belum jauh. kalau h2h bisa tetap konsisten lagunya selalu enak, n
 ## 4. BABYMONSTER
 Di urutan ke 4 kita langsung kasih ke baemon. dengan lagu lagu tipikal YG nya yang kencang.
 
-Beberapa lagu kaya forever, drip, choom, psycho, sugar honey ice tea itu asik mennn. terus lagu kayak really like you juga membuktikan kalo mereka juga bisa mainnya di musik santu. definitely epruv babymonster pasti ngangguk.
+Beberapa lagu kaya forever, drip, choom, psycho, sugar honey ice tea itu asik mennn. terus lagu kayak really like you juga membuktikan kalo mereka juga bisa mainnya di musik santuy. definitely epruv babymonster pasti ngangguk.
 
 untuk alasan aku kasih di nomor 4, itu karena kebanyakan lagunya kencang semua, kalau dengar full discography, jujur pusing men.
 
@@ -97,8 +97,12 @@ satu satunya aespa jadi nomor 2 itu adalah karena nomor 1 nya gaada lawan brodi
 
 Dan untuk girl group kpop dengan discography paling epruv jatuh kepada....... twice🎉🎉🎉
 
-Grup ini sudah ada lebih dari 10 tahun tapi lagunya tetap seru dan releval sampai sekarang. Lagu-lagunya cocok untuk sing along, tapi tetap tidak terasa sama untuk setiap lagunya.
+Grup ini sudah ada lebih dari 10 tahun tapi lagunya tetap seru dan relevan sampai sekarang. Lagu-lagunya cocok untuk sing along, tapi tetap tidak terasa sama untuk setiap lagunya.
 
 Terus lagu lagu twice ini isinya top tier semua yang kalau aku sebutkan semua top tiernya terlalu banyak jadi ya sudahlah emang ni grup terlalu imba, goated, peak. cant spell twice without W
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3598iBWrS4JhJqP5tHlpVK?utm_source=generator&si=d0c45255ecaa42fa" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+---
+## Penutup
+Tidak ada penutup, ini list sudah paling benar.
