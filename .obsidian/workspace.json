@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/reviews/doona!.md",
+                "file": "_posts/rankings/Top5GirlGroupsbysong.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "doona!"
+              "title": "Top5GirlGroupsbysong"
             }
           }
         ]
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/reviews/doona!.md",
+                "file": "_posts/rankings/Top5GirlGroupsbysong.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,10 +187,12 @@
   },
   "active": "c714e407597e6e23",
   "lastOpenFiles": [
+    "_posts/rankings/Top5GirlGroupsbysong.md",
+    "_posts/rankings/Top5VillainNaruto.md",
+    "_posts/reviews/doona!.md",
     "public/images/reviews/doona!/hayoung.jpg",
     "public/images/reviews/doona!/suzy.jpg",
     "2026-05-16.md",
-    "_posts/reviews/doona!.md",
     "_posts/reviews/crushology101.md",
     "public/images/reviews/whenLifeGivesYouTangerine/hero.jpg",
     "public/images/reviews/ourBelovedSummer/ourBelovedSummer1.jpg",
@@ -200,7 +202,6 @@
     "_posts/reviews/ourBelovedSummer.md",
     "_templates/Template.md",
     "public/images/reviews/whenLifeGivesYouTangerine",
-    "_posts/rankings/Top5VillainNaruto.md",
     "_posts/opinions/bukanSakuraYangBeban.md",
     "public/images/rankings/Top5VillainNaruto/itachi-uchiha-sharingan-eyes-in-naruto-1.jpg",
     "public/images/reviews/crushology101/hero.jpg",
@@ -212,7 +213,6 @@
     "_posts/post3.md",
     "public/images/reviews/doona!/4BGE6bqEi4pNu4RJAQWcuS.jpeg",
     "public/images/reviews/doona!",
-    "public/images/reviews/crushology101/hero.jpeg",
     "public/images/reviews/crushology101",
     "_posts/reviews/Crushology 101.md",
     "_posts/reviews/tes.md",
