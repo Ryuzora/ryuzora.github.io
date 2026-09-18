@@ -6,7 +6,7 @@ tags:
   - song
 date: 2026-09-15
 type: Ranking
-category: kpop
+category: Kpop
 excerpt: Ranking girl groups kpop yang lagu lagunya paling epruv
 thumbnail: /images/rankings/Top5GirlGroupsbysong/hero.jpg
 ---
