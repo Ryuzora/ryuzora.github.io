@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/rankings/Top5GirlGroupsbysong.md",
+                "file": "_posts/rankings/Top5OasisSongs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Top5GirlGroupsbysong"
+              "title": "Top5OasisSongs"
+            }
+          },
+          {
+            "id": "2421fda0cecb52cf",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/images/rankings/Top5OasisSongs/hero.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "hero"
             }
           }
         ]
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/rankings/Top5GirlGroupsbysong.md",
+                "file": "_posts/rankings/Top5OasisSongs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,9 +199,13 @@
   },
   "active": "c714e407597e6e23",
   "lastOpenFiles": [
-    "_posts/reviews/doona!.md",
-    "_posts/rankings/Top5VillainNaruto.md",
+    "public/images/rankings/Top5OasisSongs/hero.jpg",
     "_posts/rankings/Top5GirlGroupsbysong.md",
+    "_posts/rankings/Top5OasisSongs.md",
+    "_posts/rankings/Top5VillainNaruto.md",
+    "public/images/rankings/Top5VillainNaruto/itachi-uchiha-sharingan-eyes-in-naruto-1.jpg",
+    "public/images/rankings/Top5OasisSongs",
+    "_posts/reviews/doona!.md",
     "public/images/rankings/Top5GirlGroupsbysong/hero.jpg",
     "public/images/rankings/Top5GirlGroupsbysong",
     "node_modules/rehype-raw/index.d.ts",
@@ -201,7 +217,6 @@
     "node_modules/parse5/dist/cjs/tree-adapters/default.d.ts",
     "node_modules/parse5/dist/cjs/tokenizer/preprocessor.js",
     "node_modules/parse5/dist/cjs/tokenizer/preprocessor.d.ts",
-    "node_modules/parse5/dist/cjs/tokenizer/index.js",
     "node_modules/hast-util-raw/readme.md",
     "node_modules/hastscript/readme.md",
     "node_modules/vfile-location/readme.md",
@@ -218,9 +233,7 @@
     "_posts/reviews/ourBelovedSummer.md",
     "_templates/Template.md",
     "_posts/opinions/bukanSakuraYangBeban.md",
-    "public/images/rankings/Top5VillainNaruto/itachi-uchiha-sharingan-eyes-in-naruto-1.jpg",
     "public/images/reviews/crushology101/hero.jpg",
-    "public/images/opinions/bukanSakuraYangBeban/Sakura-naruto-454675425.jpg",
     "_posts/opinions/MaleniavsConsortRadahnComparison.md",
     "_posts/post2.md",
     "_posts/hello.md",

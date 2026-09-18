@@ -3,5 +3,6 @@
   "consistent-attachments-and-links",
   "backlink-cache",
   "obsidian-custom-attachment-location",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-vimrc-support"
 ]
