@@ -33,6 +33,6 @@ Lalu sebagai film komedi, jokes di film ini itu sudah sangat bagus, gak maksa. t
 
 Lalu untuk cast juga, ga ada cast yang secara identity terasa sama gitu, mereka semua terasa beda. Entah dari personality maupun looks nya. Hal ini membuat penonton dari awal bisa membedakan tiap tiap karakternya, terutama dalam film yang durasinya relatif pendek dibanding series
 
-![][images/reviews/hi-five/casts.jpg]
+![](images/reviews/hi-five/casts.jpg)
 
 Sebenarnya aku kurang tau juga apa yang mau kutulis tentang movie ini. aku kurang pengalaman tentang review tapi kayak ada yang ku suka aja dengan movie ini yang aku tidak mampu untuk tuliskan jadinya segini aja yey.
