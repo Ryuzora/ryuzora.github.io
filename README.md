@@ -1,8 +1,8 @@
 ## Todo
-- [ ] Buat halaman about (high)
+- [x] Buat halaman about (high)
 - [ ] Buat lebih banyak post (high)
-- [ ] Filter by category and tag (medium)
-- [ ] Search bar functionality (medium)
+- [x] Filter by category and tag (medium)
+- [x] Search bar functionality (medium)
 - [ ] Buat page untuk nulis post langsung di website (low, opsional)
 
 [Link Website nya](https://ryuzora.github.io/)
