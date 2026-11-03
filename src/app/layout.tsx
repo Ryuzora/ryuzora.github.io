@@ -15,8 +15,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Throne",
+  metadataBase: new URL("https://ryuzora.github.io"),
+  title: {
+    default: "The Throne",
+    template: "%s | The Throne",
+  },
   description: "Ryuzora's Personal Blogspot",
+  openGraph: {
+    siteName: "The Throne",
+    locale: "id_ID",
+  },
 };
 
 export default function RootLayout({
@@ -26,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="id"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-[var(--color-neutral)] text-[var(--color-text)]">
